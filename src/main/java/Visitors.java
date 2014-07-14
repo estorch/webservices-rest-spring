@@ -7,20 +7,22 @@ public class Visitors {
   public Visitors() {
     // Get some dummy data going
     Visitor visitor = null;
-    visitor = new Visitor("Eric", "--");
+    visitor = new Visitor("Eric");
     this.setVisitor(visitor);
-    visitor = new Visitor("Kaitlin", "--");
+    visitor = new Visitor("Kaitlin");
     this.setVisitor(visitor);
-    visitor = new Visitor("Kaze", "--");
+    visitor = new Visitor("Kaze");
     this.setVisitor(visitor);
   }
 
-  public void setVisitor(Visitor visitor) {
+  public int  setVisitor(Visitor visitor) {
     visitor.setId(visitorList.size());
     this.visitorList.add(visitor);
+
+    return visitor.getId();
   }
 
-  public Visitor getVisitor(int id) {
+  public List getVisitor(int id) {
     if (visitorList.isEmpty() || id < visitorList.size()) {
       String sMessage = "Error retrieving visitor.";
       //return createErrorResponse(sMessage);
@@ -35,7 +37,10 @@ public class Visitors {
       //return createErrorResponse(String.format(sMessage, e.toString()));
     }
 
-    return visitor;
+    List<Visitor> visitorList = new ArrayList<Visitor>();
+    visitorList.add(visitor);
+
+    return visitorList;
   }
 
   public List getVisitors() {

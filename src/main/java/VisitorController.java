@@ -19,22 +19,24 @@ public class VisitorController {
 
   @RequestMapping(value = "/visitors", method = RequestMethod.GET )
   public @ResponseBody Response visitorGET() {
-    List<Visitor> visitorList = null;
-
-    visitorList = this.visitors.getVisitors();
-    Response response = new Response(visitorList);
-    //response.setPayload(visitorList);
+    Response response = new Response(this.visitors.getVisitors());
 
     return response;
   }
 
   @RequestMapping(value = "/visitors/{id}", method = RequestMethod.GET )
-  public @ResponseBody Visitor visitorGET(@PathVariable("id") int id) {
-    return this.visitors.getVisitor(id);
+  public @ResponseBody Response visitorGET(@PathVariable("id") int id) {
+    Response response = new Response(this.visitors.getVisitor(id));
+
+    return response;
   }
 
   @RequestMapping(value = "/visitors", method = RequestMethod.POST )
-  public @ResponseBody void VisitorPOST(@RequestBody Visitor visitor_p) {
-    this.visitors.setVisitor(visitor_p);
+  public @ResponseBody Response VisitorPOST(@RequestBody Visitor visitor_p) {
+    int id = this.visitors.setVisitor(visitor_p);
+
+    Response response = new Response(this.visitors.getVisitor(id));
+
+    return response;
   }
 }

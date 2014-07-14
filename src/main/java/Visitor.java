@@ -6,9 +6,8 @@ public class Visitor {
   public Visitor() {
   }
 
-  public Visitor(String name, String date) {
+  public Visitor(String name) {
     this.name = name;
-    this.date = date;
   }
 
   public int getId() {
