@@ -34,7 +34,7 @@ public class Visitors {
       visitor = this.visitorList.get(id);
     } catch (Exception e) {
       String sMessage = "Error retrieving visitor. [%1$s]";
-      //return createErrorResponse(String.format(sMessage, e.toString()));
+      //return rest createErrorResponse(String.format(sMessage, e.toString()));
     }
 
     List<Visitor> visitorList = new ArrayList<Visitor>();
