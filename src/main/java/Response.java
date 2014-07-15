@@ -4,7 +4,8 @@ import java.util.ArrayList;
 public class Response<T> {
   private String status;
   private long time;
-  private List<T> payload = new ArrayList<T>();
+  private List<T> payload = null;
+  private List<T> notes = null;
 
   public Response() {
   }
@@ -13,6 +14,14 @@ public class Response<T> {
     this.status = "SUCCESS";
     this.time = System.currentTimeMillis();
     this.payload = payload;
+    this.notes = null;
+  }
+
+  public Response(List<T> payload, List<T> notes) {
+    this.status = "SUCCESS";
+    this.time = System.currentTimeMillis();
+    this.payload = payload;
+    this.notes = notes;
   }
 
   public String getStatus() {
@@ -27,7 +36,15 @@ public class Response<T> {
     return this.payload;
   }
 
-//  public void setPayload(List<T> payload) {
-//    this.payload = payload;
-//  }
+  public List<T> getNotes() {
+    return this.notes;
+  }
+
+  public void setPayload(List<T> payload) {
+    this.payload = payload;
+  }
+
+  public void setNotes(List<T> notes) {
+    this.notes = notes;
+  }
 }
