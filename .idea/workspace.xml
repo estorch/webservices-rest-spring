@@ -75,14 +75,24 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SortController.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="SortController.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/SortController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.25255102" vertical-offset="0" max-vertical-offset="784">
-                  <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+                  <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.09587217" vertical-offset="0" max-vertical-offset="751">
+                  <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -114,8 +124,8 @@
           <file leaf-file-name="Sort.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Sort.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.35207823" vertical-offset="0" max-vertical-offset="2502">
-                  <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+                <state vertical-scroll-proportion="0.2200489" vertical-offset="0" max-vertical-offset="2502">
+                  <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#884#892#0" expanded="true" />
@@ -184,10 +194,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Visitors.java" />
         <option value="$PROJECT_DIR$/src/main/java/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/SimpleCORSFilter.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/SortController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Response.java" />
         <option value="$PROJECT_DIR$/src/main/java/Sort.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -548,12 +558,12 @@
       <workItem from="1405369745038" duration="29000" />
       <workItem from="1405369789726" duration="3243000" />
       <workItem from="1405373049843" duration="783000" />
-      <workItem from="1405373851858" duration="8907000" />
+      <workItem from="1405373851858" duration="9021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46541000" />
+    <option name="totallyTimeSpent" value="46655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1922" height="950" extended-state="6" />
@@ -935,13 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06809584" vertical-offset="0" max-vertical-offset="793">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HelloWorldController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="396">
@@ -1008,18 +1011,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SortController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25255102" vertical-offset="0" max-vertical-offset="784">
-          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09587217" vertical-offset="0" max-vertical-offset="751">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35207823" vertical-offset="0" max-vertical-offset="2502">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.2200489" vertical-offset="0" max-vertical-offset="2502">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#884#892#0" expanded="true" />
