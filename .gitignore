@@ -1,5 +1,5 @@
-/.idea
-/lib
+.idea/
+lib/
 *.log
 *.*~
 .desktop
