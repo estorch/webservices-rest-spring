@@ -11,7 +11,16 @@ public class Sort {
   public Sort() { }
 
   public Sort(String nums, String sort) {
+    nums = nums.replaceAll("[^0-9,/]", "");
+
     String[] items = nums.split(",");
+
+    for (int i = 0; i < items.length; i++) {
+      if (items[i].length() > 10) {
+        items[i] = items[i].substring(0, 9);
+      }
+    }
+
     this.list = new int[items.length];
 
     for (int i = 0; i < items.length; i++) {
@@ -100,6 +109,10 @@ public class Sort {
   }
 
   public void bogoSort() {
+    if (this.list.length > 10) {
+      this.list = Arrays.copyOfRange(this.list, 0, 10);
+    }
+
     Random rand = new Random();
     boolean sorted = false;
     long counter = 0;
