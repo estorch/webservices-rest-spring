@@ -10,11 +10,12 @@ import java.util.concurrent.atomic.AtomicLong;
 
 @Controller
 public class EmailController {
+  private Emailer emailer = new Emailer();
   private final AtomicLong counter = new AtomicLong();
 
   @RequestMapping(value = "/email", method=RequestMethod.POST )
   public @ResponseBody Response email(@RequestBody Email email_p) {
-    email_p.sendEmail();
+    Emailer.sendEmail(email_p);
 
     //Email2 email2 = new Email2();
     //email2.sendEmail();
