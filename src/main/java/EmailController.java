@@ -15,7 +15,7 @@ public class EmailController {
 
   @RequestMapping(value = "/email", method=RequestMethod.POST )
   public @ResponseBody Response email(@RequestBody Email email_p) {
-    Emailer.sendEmail(email_p);
+    emailer.sendEmail(email_p);
 
     //Email2 email2 = new Email2();
     //email2.sendEmail();

@@ -8,6 +8,8 @@ public class Response<T> {
   private List<T> notes = null;
 
   public Response() {
+    this.status = "SUCCESS";
+    this.time = System.currentTimeMillis();
   }
 
   public Response(List<T> payload) {
