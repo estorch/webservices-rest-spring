@@ -8,21 +8,17 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 public class Email {
-  private final long id;
   private String name;
   private String email;
   private String message;
 
   public Email() {
-    this.id = 123;
   }
 
-  public Email(long id) {
-    this.id = id;
-  }
-
-  public long getId() {
-    return this.id;
+  public Email(String name, String email, String message) {
+    this.name = name;
+    this.email = email;
+    this.message = message;
   }
 
   public String getName() {
