@@ -8,20 +8,18 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 public class Email {
-  private String name;
   private String email;
+  private String subject;
   private String message;
 
   public Email() {
   }
 
-  public String getName() {
-    return this.name;
-  }
-
   public String getEmail() {
     return this.email;
   }
+
+  public String getSubject() { return this.subject; }
 
   public String getMessage() { return this.message; }
 }
