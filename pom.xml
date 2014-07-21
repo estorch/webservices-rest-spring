@@ -36,7 +36,7 @@
   </dependencies>
 
   <properties>
-    <start-class>Application</start-class>
+    <start-class>main.java.io.edocode.Application</start-class>
   </properties>
 
   <build>
